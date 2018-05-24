@@ -13,7 +13,7 @@ function popupResult(result) {
   }
   if (result.src) {
   	html = '<img src="' + result.src + '" />' +
-    '<a href="'+ result.src +'" id="downloadlink" class="button" download="DaftarRK.jpg">Download</a>' +
+    '<a href="'+ result.src +'" id="downloadlink" class="button" download="twibbon.jpg">Download</a>' +
     '<button class="confirm button" tabindex="1">Cancel</button>';
   }
   swal({
