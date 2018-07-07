@@ -14,7 +14,7 @@ function popupResult(result) {
   if (result.src) {
   	html = '<img src="' + result.src + '" />' +
     '<a href="'+ result.src +'" id="downloadlink" class="button" download="twibbon.jpg">Download</a>' +
-    '<button class="confirm button" tabindex="1">Cancel</button>';
+    '<button class="confirm button" style="background-color:#d3dde6;" tabindex="1">Cancel</button>';
   }
   swal({
 	title: '',

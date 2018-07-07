@@ -41,7 +41,7 @@
 
 .inputfile:focus + label,
 .inputfile + label:hover {
-   background-color: rgba(235,55,64,1);
+   background-color: #d3dde6;
    color: #000;
 }
 
@@ -80,7 +80,7 @@
 /* Main */
 body {
   font-family: 'Fira Sans', sans-serif;
-  background: linear-gradient(to right, #eb3740 , #000000);
+  background: linear-gradient(to right, #d3dde6, #000000);
 }
 
 .title {
@@ -130,7 +130,7 @@ img {
 }
 
 .button:hover {
-  background-color: rgba(235,55,64,1);
+  background-color: #d3dde6;
   color: #000;
 }
 
